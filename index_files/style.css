@@ -17,7 +17,7 @@ body {
 
 header {}
 	header img#logo {
-		margin: 0 0 50px 0;
+		margin: 0 0 10px 0;
 	}
 	header h1 {
 		margin: 0 0 30px 90px;
@@ -37,7 +37,7 @@ section {
 		margin: 0 0 30px 90px;
 		font-size: 22px;
 		line-height: 35px;
-		color: #d9d9d9;
+		color: #FFFBFF;
 		text-shadow: 0px 1px 5px #000;
 	}
 	section h2 {
@@ -51,7 +51,7 @@ section {
 		margin: 0 0 30px 90px;
 		font-size: 18px;
 		line-height: 35px;
-		color: #d9d9d9;
+		color: #FFFBFF;
 		text-shadow: 0px 1px 5px #000;
 	}
 	
@@ -67,15 +67,27 @@ footer {
 	clear: both;
 	overflow: hidden;
 }
+
 	footer a#app-store {
-		display: block;
-		width: 198px;
-		height: 72px;
+        display: block;
+		width: 306px;
+		height: 98px;
 		background: url(app-store.png);
+        margin: 20px 20px 20px 20px;
 		text-indent: -9999px;
-		margin: 0 0 0 84px;
 		float: left;
 	}
+
+	footer a#qr {
+        display: block;
+		width: 150px;
+		height: 150px;
+		background: url(qr.png);
+		text-indent: -9999px;
+		margin: 0 0 20 100px;
+		float: left;
+	}
+
 	footer p {
 		float: right;
 		clear: right;
